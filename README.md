@@ -4,5 +4,5 @@
 ~~~~ python
 import cPickle
 path= "<path to embedding file *.vec>"
-emb = cPickle.load(fp)
+emb = cPickle.load(open(path))
 ~~~~
